@@ -4,30 +4,59 @@
 <head>
 	<title>Contact</title>
 	<meta charset= "UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
 	<div class= "header">
-		<!-- insert bar and links to about, portfiolio, contact pages -->
-		<div class= "yourName">
-			<!-- insert box and type here -->
-		</div>
+
+		<!-- Shows Name -->
+		<div class= "yourName"> Carl Liu</div>
+
+		<!-- Tabs link to different pages (About/Contact/Portfolio) -->
+		<a class= "tab aboutTab" href= "https://thecarlliu.github.io/Basic-Portfolio/index.html">About</a>
+
+		<a class= "tab contactTab" href= "https://thecarlliu.github.io/Basic-Portfolio/contact.html">Contact</a>
+
+		<a class= "tab portfolioTab" href= "https://thecarlliu.github.io/Basic-Portfolio/portfolio.html">Portfolio</a>
 
 	</div>
 	
 	<div class= "contentArea">
+
 		<div class= "mainSection">
-			<!-- insert Contact text, Name form, Email form, Message form, and functional Submit button -->
+
+			<!-- Shows Contact header, Name form, Email form and Message form + Submit Button -->
+			<h1>Contact</h1>
+			<br>
+			<form>
+				<h4>Name</h4><br>
+				<input type= "text" name="John Smith"><br>
+				<h4>Email</h4><br>
+				<input type= "text" name="example@gmail.com"><br>
+				<h4>Message</h4>
+				<input type= "text" name="Lorem ipsum..."></br>
+			</form>
+
 		</div>
 	
 		<div class= "sideBar">
-			<!-- insert Connect with me text, gitPages link, linkedIn, stackOverflow -->
+
+			<h3>Connect with me</h3>
+			<br>
+			<!-- Links to gitHub, linkedIn, and stackOverflow with img icons -->
+			<img src="assets/images/gitHubIcon.jpg">
+			<img src="assets/images/linkedInIcon.jpg">
+			<img src="assets/images/stackOverflowIcon.jpg">
 		</div>
 	</div>
 	
-	<div class= "footer">
-		<!-- insert bar and copyright -->
+	<div class= "footerBackground">
+		<div class= "footer">
+			<a id= "copyight">©Copyright 2017 Carl Liu</a>
+		</div>
 	</div>
 
 </body>
