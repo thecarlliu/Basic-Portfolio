@@ -53,6 +53,7 @@ body {
 .contentArea {
 	padding-top: 60px;
 	padding-bottom: 100px;
+	margin-bottom: 89%;
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -79,7 +80,7 @@ p {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 20px;
-	padding-bottom: 60px;
+	padding-bottom: 20px;
 	width: 590px;
 	left: 162px;
 	position: absolute;
