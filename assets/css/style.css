@@ -18,7 +18,7 @@
 	font-family: Century Gothic;
 	font-style: bold;
 	font-size: 30px;
-	font-color: white;
+	color: white;
 	z-index: 3;
 }
 
@@ -27,7 +27,7 @@
 	top: 20px;
 	font-family: Century Gothic;
 	font-size: 12px;
-	font-color: black;
+	color: grey;
 }
 
 .aboutTab{
@@ -45,11 +45,26 @@
 .contentArea {
 	padding-top: 60px;
 	position: relative;
-	top: 0px;
 	width: 100%;
-	height: 100%;
+	/*note that "height: 100% wasn't working so I set it to a set number"*/
+	height: 1500px; 
 	background-color: grey;
-	z-index: -1;
+	z-index: 0;
+}
+
+h2 {
+	font-family: Century Gothic;
+	color: white;
+}
+
+h3 {
+	font-family: Century Gothic;
+	color: white;
+}
+
+p {
+	font-family: Optima;
+	color: white;
 }
 
 .mainSection {
@@ -57,17 +72,17 @@
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 60px;
 	width: 590px;
 	left: 162px;
 	position: absolute;
 	background-color: #6BDBCF;
+	line-height: 2;
 }
 
-.profilePic {
-	width: 200;
-	height: 200;
-	z-index: 3;
+#profilePic {
+	float: left;
+	padding-right:20px;
 }
 
 .sideBar {
@@ -80,6 +95,11 @@
 	width: 210px;
 	position: absolute;
 	background-color: #6BDBCF;
+}
+
+.icon {
+	width: 60px;
+	height: 60px;
 }
 
 .footerBackground {
