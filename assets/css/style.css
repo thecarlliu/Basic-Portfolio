@@ -1,0 +1,105 @@
+.header {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	height: 57px;
+	width:100%;
+	z-index: 2;
+}
+
+.yourName {
+	position: fixed;
+	left: 170px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	background-color: #6BDBCF;
+	font-family: Century Gothic;
+	font-style: bold;
+	font-size: 30px;
+	font-color: white;
+	z-index: 3;
+}
+
+.tab {
+	position: fixed;
+	top: 20px;
+	font-family: Century Gothic;
+	font-size: 12px;
+	font-color: black;
+}
+
+.aboutTab{
+	left: 862px;
+}
+
+.portfolioTab{
+	left: 922px;
+}
+
+.contactTab{
+	left: 992px;
+}
+
+.contentArea {
+	padding-top: 60px;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+	z-index: -1;
+}
+
+.mainSection {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 590px;
+	left: 162px;
+	position: absolute;
+	background-color: #6BDBCF;
+}
+
+.profilePic {
+	width: 200;
+	height: 200;
+	z-index: 3;
+}
+
+.sideBar {
+	float: right;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	left: 852px;
+	width: 210px;
+	position: absolute;
+	background-color: #6BDBCF;
+}
+
+.footerBackground {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	width: 100%;
+	height: 45px;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: #6BDBCF;
+	font-size: 10px;
+
+}
